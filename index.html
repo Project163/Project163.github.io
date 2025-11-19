@@ -668,7 +668,7 @@
         <div class="player-content">
             <div class="track-info">
                 <div style="color: var(--nj-pink);">NOW PLAYING:</div>
-                <div id="track-name">New Jeans - ETA</div>
+                <div id="track-name">New Jeans - /home/m0uses/下载/NewJeans - New Jeans.mp3</div>
             </div>
 
             <!-- 进度条区域 -->
@@ -685,7 +685,7 @@
 
     <!-- 为了确保能演示，我放回了一个在线链接。如果需要用本地文件，请改回 "NewJeans - New Jeans.mp3" -->
     <audio id="bg-music" loop>
-        <source src="https://api.paugram.com/wallpaper/uploads/music/newjeans-eta.mp3" type="audio/mpeg">
+        <source src="NewJeans - New Jeans.mp3" type="audio/mpeg">
     </audio>
 
     <script>
@@ -814,7 +814,7 @@
                 audio.play();
                 disk.style.animationPlayState = 'running';
                 player.style.borderColor = 'var(--nj-pink)';
-                trackName.innerText = "New Jeans - ETA";
+                trackName.innerText = "New Jeans - New Jeans.mp3";
             }
             isPlaying = !isPlaying;
         }
